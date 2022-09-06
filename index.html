@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="script/script.js"></script>
+
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <main class="container">
+      <img src="images/logo.svg" alt="logo" />
+      <section class="calculator">
+        <div class="calculator__calculate">
+          <h1 class="calculator__heading">Bill</h1>
+          <input type="number" />
+
+          <h2 class="calculator__heading">Select Tip %</h2>
+          <button class="btn">5%</button>
+          <button class="btn">10%</button>
+          <button class="btn">15%</button>
+          <button class="btn">25%</button>
+          <button class="btn">50%</button>
+          <button class="btn btn--gray">Custom</button>
+
+          <h2 class="calculator__heading">Number of People</h2>
+          <input type="number" />
+        </div>
+        <div class="calculator__total">
+          <div>
+            <p class="calculator__text">Tip Amount <span>/ person</span></p>
+            <span id="tip-amount" class="amount">$4.27</span>
+          </div>
+          <div>
+            <p class="calculator__text">Total <span>/ person</span></p>
+            <span id="total-amount" class="amount">$32.79</span>
+          </div>
+          <button class="btn btn--reset">Reset</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
