@@ -22,31 +22,59 @@
   </head>
   <body>
     <main class="container">
-      <img src="images/logo.svg" alt="logo" />
+      <img src="images/logo.svg" alt="logo" class="logo" />
       <section class="calculator">
         <div class="calculator__calculate">
-          <h1 class="calculator__heading">Bill</h1>
-          <input type="number" />
+          <div>
+            <h1 class="calculator__heading">Bill</h1>
+            <div class="input-container">
+              <input type="number" class="input" placeholder="0" />
+              <img
+                src="images/icon-dollar.svg"
+                alt="icon-dollar"
+                class="icon"
+              />
+            </div>
+          </div>
 
-          <h2 class="calculator__heading">Select Tip %</h2>
-          <button class="btn">5%</button>
-          <button class="btn">10%</button>
-          <button class="btn">15%</button>
-          <button class="btn">25%</button>
-          <button class="btn">50%</button>
-          <button class="btn btn--gray">Custom</button>
+          <div>
+            <h2 class="calculator__heading">Select Tip %</h2>
+            <div class="calculator__tips">
+              <button class="btn">5%</button>
+              <button class="btn">10%</button>
+              <button class="btn">15%</button>
+              <button class="btn">25%</button>
+              <button class="btn">50%</button>
+              <input
+                type="number"
+                class="input input--custom"
+                placeholder="Custom"
+              />
+            </div>
+          </div>
 
-          <h2 class="calculator__heading">Number of People</h2>
-          <input type="number" />
+          <div>
+            <h2 class="calculator__heading">Number of People</h2>
+            <div class="input-container">
+              <input type="number" class="input" placeholder="0" />
+              <img
+                src="images/icon-person.svg"
+                alt="icon-person"
+                class="icon"
+              />
+            </div>
+          </div>
         </div>
         <div class="calculator__total">
-          <div>
-            <p class="calculator__text">Tip Amount <span>/ person</span></p>
-            <span id="tip-amount" class="amount">$4.27</span>
-          </div>
-          <div>
-            <p class="calculator__text">Total <span>/ person</span></p>
-            <span id="total-amount" class="amount">$32.79</span>
+          <div class="amount-info">
+            <div>
+              <p class="calculator__text">Tip Amount <span>/ person</span></p>
+              <span id="tip-amount" class="amount">$4.27</span>
+            </div>
+            <div>
+              <p class="calculator__text">Total <span>/ person</span></p>
+              <span id="total-amount" class="amount">$32.79</span>
+            </div>
           </div>
           <button class="btn btn--reset">Reset</button>
         </div>
