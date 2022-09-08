@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/AfopeM/Tip-Calculator-App)
+- Live Site URL: [Live Site](https://afopem.github.io/Tip-Calculator-App/)
 
 ## My process
 
@@ -41,10 +41,11 @@ Users should be able to:
 
 ### What I learned
 
+- How to Update UI using Javascript
+
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Element#mouse_events)
 
 ## Author
 
