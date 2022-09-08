@@ -78,7 +78,7 @@ img {
   background-color: var(--White);
 
   display: grid;
-  grid-template-columns: minmax(300px, 800px);
+  grid-template-columns: minmax(300px, 450px);
   gap: 1rem;
 }
 
@@ -156,6 +156,18 @@ img {
 
 .warning {
   outline: 2px solid red;
+  opacity: 0.5;
+}
+
+.warning--text {
+  position: absolute;
+  top: -30px;
+  right: 0;
+
+  font-size: 0.7rem;
+  color: red;
+  opacity: 0.5;
+  display: none;
 }
 
 .icon {
@@ -209,7 +221,7 @@ img {
   /* CALCULATOR */
   .calculator {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(300px, 450px));
     gap: 2rem;
   }
 
